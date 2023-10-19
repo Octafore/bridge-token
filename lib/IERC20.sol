@@ -6,10 +6,7 @@ interface IERC20 {
     // Occures when any amount (including zero) of the token transfers from an account to another
     event Transfer(address indexed from, address indexed to, uint256 value);
 
-    /**
-     * @dev Emitted when the allowance of a `spender` for an `owner` is set by
-     * a call to {approve}. `value` is the new allowance.
-     */
+    //
     event Approval(address indexed owner, address indexed spender, uint256 value);
 
     // total supply
